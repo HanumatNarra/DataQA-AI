@@ -12,7 +12,7 @@ Upload a CSV, Excel, or JSON file and ask questions about it in plain English. N
 
 ## Demo
 
-[![Watch Demo](public/images/app-dashboard.png)](https://youtu.be/_zvVLOZN-PE)
+[![Watch Demo](public/images/Thumbnail_DataQA.png)](https://youtu.be/_zvVLOZN-PE)
 
 ---
 
