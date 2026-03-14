@@ -1,0 +1,27 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Gauge -->
+  <path d="M 200 300 A 80 80 0 0 1 360 300" stroke="currentColor" stroke-width="8" fill="none"/>
+  <path d="M 360 300 A 80 80 0 0 1 200 300" stroke="currentColor" stroke-width="8" fill="none" stroke-dasharray="8 8"/>
+  <line x1="280" y1="300" x2="320" y2="260" stroke="currentColor" stroke-width="4"/>
+  <line x1="280" y1="300" x2="280" y2="300" stroke="currentColor" stroke-width="4"/>
+  
+  <!-- SLA Bars -->
+  <rect x="400" y="200" width="60" height="120" rx="4" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="400" y="280" width="60" height="40" fill="currentColor" fill-opacity="0.3"/>
+  
+  <rect x="480" y="180" width="60" height="140" rx="4" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="480" y="260" width="60" height="60" fill="currentColor" fill-opacity="0.3"/>
+  
+  <rect x="560" y="160" width="60" height="160" rx="4" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="560" y="240" width="60" height="80" fill="currentColor" fill-opacity="0.3"/>
+  
+  <rect x="640" y="140" width="60" height="180" rx="4" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="640" y="220" width="60" height="100" fill="currentColor" fill-opacity="0.3"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">Operations</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">KPI Monitoring</text>
+</svg>

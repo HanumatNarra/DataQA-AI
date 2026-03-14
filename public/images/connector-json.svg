@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+  <path d="M8 7C8 7 9 8 9 9C9 10 8 11 8 11" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <path d="M16 7C16 7 15 8 15 9C15 10 16 11 16 11" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <path d="M8 13C8 13 9 14 9 15C9 16 8 17 8 17" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <path d="M16 13C16 13 15 14 15 15C15 16 16 17 16 17" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <line x1="12" y1="9" x2="12" y2="15" stroke="currentColor" stroke-width="1.5"/>
+  <text x="12" y="21" text-anchor="middle" font-family="monospace" font-size="6" fill="currentColor">JSON</text>
+</svg>

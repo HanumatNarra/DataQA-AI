@@ -1,27 +1,93 @@
 {
   "name": "data-qa-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "AI-powered data analysis platform - Upload CSV/PDF/XLSX files, ask natural language questions, and generate interactive visualizations",
   "private": true,
+  "author": "Data-QA Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/data-qa-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/data-qa-app/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/data-qa-app#readme",
+  "keywords": [
+    "data-analysis",
+    "ai",
+    "openai",
+    "supabase",
+    "nextjs",
+    "natural-language",
+    "data-visualization",
+    "csv",
+    "pdf",
+    "excel"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "analyze": "ANALYZE=true next build",
+    "test:smoke": "tsx scripts/smoke-e2e.ts",
+    "test:semantic": "tsx scripts/semantic-invariants.test.ts",
+    "test:charts": "tsx scripts/test-chart-generation.ts",
+    "test:chat": "tsx scripts/test-chat-functionality.ts",
+    "test:all": "npm run test:semantic && npm run test:charts && npm run test:chat",
+    "validate": "npm run typecheck && npm run lint && npm run build",
+    "prepare": "husky install || true"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.55.0",
+    "@types/papaparse": "^5.3.16",
+    "canvas": "^3.2.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.539.0",
+    "next": "15.4.6",
+    "openai": "^5.12.2",
+    "papaparse": "^5.5.3",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "recharts": "^3.1.2",
+    "tailwind-merge": "^3.3.1",
+    "vega": "^6.1.2",
+    "vega-lite": "^6.2.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "@eslint/eslintrc": "^3"
+    "husky": "^9",
+    "lint-staged": "^15",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.4",
+    "typescript": "^5"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "tsc --noEmit -p tsconfig.json --pretty false"
+    ]
   }
 }

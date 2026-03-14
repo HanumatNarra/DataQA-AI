@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="12" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="2" fill="none"/>
+  <ellipse cx="12" cy="18" rx="8" ry="3" stroke="currentColor" stroke-width="2" fill="none"/>
+  <line x1="4" y1="6" x2="4" y2="18" stroke="currentColor" stroke-width="2"/>
+  <line x1="20" y1="6" x2="20" y2="18" stroke="currentColor" stroke-width="2"/>
+  <path d="M12 9L14 12L12 15L10 12L12 9Z" fill="currentColor"/>
+  <text x="12" y="21" text-anchor="middle" font-family="monospace" font-size="6" fill="currentColor">DB</text>
+</svg>

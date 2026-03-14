@@ -1,0 +1,46 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Grid Lines -->
+  <line x1="150" y1="150" x2="150" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="200" y1="150" x2="200" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="250" y1="150" x2="250" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="300" y1="150" x2="300" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="350" y1="150" x2="350" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="400" y1="150" x2="400" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="450" y1="150" x2="450" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="500" y1="150" x2="500" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="550" y1="150" x2="550" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="600" y1="150" x2="600" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="650" y1="150" x2="650" y2="430" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <line x1="150" y1="150" x2="650" y2="150" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="150" y1="200" x2="650" y2="200" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="150" y1="250" x2="650" y2="250" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="150" y1="300" x2="650" y2="300" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="150" y1="350" x2="650" y2="350" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="150" y1="400" x2="650" y2="400" stroke="currentColor" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <!-- Scatter Plot Points -->
+  <circle cx="180" cy="380" r="4" fill="currentColor"/>
+  <circle cx="220" cy="320" r="4" fill="currentColor"/>
+  <circle cx="260" cy="280" r="4" fill="currentColor"/>
+  <circle cx="300" cy="240" r="4" fill="currentColor"/>
+  <circle cx="340" cy="200" r="4" fill="currentColor"/>
+  <circle cx="380" cy="180" r="4" fill="currentColor"/>
+  <circle cx="420" cy="160" r="4" fill="currentColor"/>
+  <circle cx="460" cy="140" r="4" fill="currentColor"/>
+  <circle cx="500" cy="120" r="4" fill="currentColor"/>
+  <circle cx="540" cy="100" r="4" fill="currentColor"/>
+  <circle cx="580" cy="90" r="4" fill="currentColor"/>
+  <circle cx="620" cy="80" r="4" fill="currentColor"/>
+  
+  <!-- Trend Line -->
+  <path d="M180 380 L220 320 L260 280 L300 240 L340 200 L380 180 L420 160 L460 140 L500 120 L540 100 L580 90 L620 80" 
+        stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">Research & Analytics</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">Data Exploration</text>
+</svg>

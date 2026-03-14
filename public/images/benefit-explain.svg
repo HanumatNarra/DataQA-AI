@@ -1,0 +1,6 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8 8C8 6 9 5 11 5H17C19 5 20 6 20 8V14C20 16 19 17 17 17H13L10 20L8 18V8Z" stroke="currentColor" stroke-width="2" fill="none"/>
+  <path d="M12 12C12 11 13 10 14 10C15 10 16 11 16 12C16 13 15 14 14 14C13 14 12 13 12 12Z" fill="currentColor"/>
+  <line x1="12" y1="16" x2="16" y2="16" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M16 8C16 6 17 5 19 5H25C27 5 28 6 28 8V14C28 16 27 17 25 17H21L18 20L16 18V8Z" stroke="currentColor" stroke-width="2" fill="none"/>
+</svg>

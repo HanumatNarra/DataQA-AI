@@ -1,0 +1,27 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Shopping Cart -->
+  <rect x="200" y="200" width="120" height="80" rx="8" stroke="currentColor" stroke-width="3" fill="none"/>
+  <circle cx="220" cy="280" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+  <circle cx="300" cy="280" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="180" y="180" width="160" height="20" rx="10" stroke="currentColor" stroke-width="3" fill="none"/>
+  
+  <!-- Stacked Bar Chart -->
+  <rect x="400" y="300" width="60" height="80" fill="currentColor" fill-opacity="0.4"/>
+  <rect x="400" y="280" width="60" height="20" fill="currentColor" fill-opacity="0.6"/>
+  <rect x="400" y="260" width="60" height="20" fill="currentColor" fill-opacity="0.8"/>
+  
+  <rect x="480" y="320" width="60" height="60" fill="currentColor" fill-opacity="0.4"/>
+  <rect x="480" y="300" width="60" height="20" fill="currentColor" fill-opacity="0.6"/>
+  <rect x="480" y="280" width="60" height="20" fill="currentColor" fill-opacity="0.8"/>
+  
+  <rect x="560" y="340" width="60" height="40" fill="currentColor" fill-opacity="0.4"/>
+  <rect x="560" y="320" width="60" height="20" fill="currentColor" fill-opacity="0.6"/>
+  <rect x="560" y="300" width="60" height="20" fill="currentColor" fill-opacity="0.8"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">E-commerce</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">Sales Analytics</text>
+</svg>

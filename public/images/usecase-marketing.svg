@@ -1,0 +1,31 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Campaign Card -->
+  <rect x="150" y="150" width="200" height="120" rx="8" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="160" y="160" width="180" height="20" rx="4" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="160" y="190" width="140" height="15" rx="4" fill="currentColor" fill-opacity="0.2"/>
+  <rect x="160" y="215" width="160" height="15" rx="4" fill="currentColor" fill-opacity="0.2"/>
+  <rect x="160" y="240" width="120" height="15" rx="4" fill="currentColor" fill-opacity="0.2"/>
+  <rect x="160" y="265" width="80" height="15" rx="4" fill="currentColor" fill-opacity="0.2"/>
+  
+  <!-- Line Chart -->
+  <path d="M400 200 L450 180 L500 160 L550 140 L600 120 L650 100 L700 80" 
+        stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="400" cy="200" r="5" fill="currentColor"/>
+  <circle cx="450" cy="180" r="5" fill="currentColor"/>
+  <circle cx="500" cy="160" r="5" fill="currentColor"/>
+  <circle cx="550" cy="140" r="5" fill="currentColor"/>
+  <circle cx="600" cy="120" r="5" fill="currentColor"/>
+  <circle cx="650" cy="100" r="5" fill="currentColor"/>
+  <circle cx="700" cy="80" r="5" fill="currentColor"/>
+  
+  <!-- Chart Area -->
+  <path d="M400 200 L450 180 L500 160 L550 140 L600 120 L650 100 L700 80 L700 200 L400 200 Z" 
+        fill="currentColor" fill-opacity="0.1"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">Marketing</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">Campaign ROI</text>
+</svg>

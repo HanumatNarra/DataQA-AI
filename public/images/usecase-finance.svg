@@ -1,0 +1,29 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- Bar Chart (Expenses) -->
+  <rect x="150" y="400" width="40" height="40" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="200" y="380" width="40" height="60" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="250" y="360" width="40" height="80" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="300" y="340" width="40" height="100" fill="currentColor" fill-opacity="0.3"/>
+  <rect x="350" y="320" width="40" height="120" fill="currentColor" fill-opacity="0.3"/>
+  
+  <!-- Line Chart (Revenue) -->
+  <path d="M150 320 L200 300 L250 280 L300 260 L350 240 L400 220 L450 200 L500 180 L550 160 L600 140" 
+        stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="150" cy="320" r="4" fill="currentColor"/>
+  <circle cx="200" cy="300" r="4" fill="currentColor"/>
+  <circle cx="250" cy="280" r="4" fill="currentColor"/>
+  <circle cx="300" cy="260" r="4" fill="currentColor"/>
+  <circle cx="350" cy="240" r="4" fill="currentColor"/>
+  <circle cx="400" cy="220" r="4" fill="currentColor"/>
+  <circle cx="450" cy="200" r="4" fill="currentColor"/>
+  <circle cx="500" cy="180" r="4" fill="currentColor"/>
+  <circle cx="550" cy="160" r="4" fill="currentColor"/>
+  <circle cx="600" cy="140" r="4" fill="currentColor"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">Finance & Accounting</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">Revenue vs Expenses</text>
+</svg>

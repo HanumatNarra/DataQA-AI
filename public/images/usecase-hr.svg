@@ -1,0 +1,28 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="none"/>
+  <rect x="100" y="100" width="600" height="360" rx="16" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/>
+  
+  <!-- People Icons -->
+  <circle cx="200" cy="200" r="25" stroke="currentColor" stroke-width="3" fill="none"/>
+  <circle cx="200" cy="180" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="190" y="210" width="20" height="30" rx="10" stroke="currentColor" stroke-width="3" fill="none"/>
+  
+  <circle cx="300" cy="200" r="25" stroke="currentColor" stroke-width="3" fill="none"/>
+  <circle cx="300" cy="180" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="290" y="210" width="20" height="30" rx="10" stroke="currentColor" stroke-width="3" fill="none"/>
+  
+  <circle cx="400" cy="200" r="25" stroke="currentColor" stroke-width="3" fill="none"/>
+  <circle cx="400" cy="180" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+  <rect x="390" y="210" width="20" height="30" rx="10" stroke="currentColor" stroke-width="3" fill="none"/>
+  
+  <!-- Donut Chart -->
+  <circle cx="500" cy="250" r="60" stroke="currentColor" stroke-width="8" fill="none"/>
+  <path d="M 500 190 A 60 60 0 0 1 560 250" stroke="currentColor" stroke-width="8" fill="none"/>
+  <path d="M 560 250 A 60 60 0 0 1 500 310" stroke="currentColor" stroke-width="8" fill="none" stroke-dasharray="8 8"/>
+  <path d="M 500 310 A 60 60 0 0 1 440 250" stroke="currentColor" stroke-width="8" fill="none"/>
+  <path d="M 440 250 A 60 60 0 0 1 500 190" stroke="currentColor" stroke-width="8" fill="none"/>
+  
+  <!-- Labels -->
+  <text x="400" y="520" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="currentColor">Human Resources</text>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui" font-size="16" fill="currentColor" fill-opacity="0.7">Team Performance</text>
+</svg>
